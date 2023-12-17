@@ -294,10 +294,162 @@ input{
        margin-right: -98px;
     }
 
-   
- 
+
+  }
 
 
+
+
+  /*responsi*/
+  @media screen and (max-width: 280px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 280px){
+    .carta{
+        width: 140px;
+      margin: 20px;
+    }
 
     
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+    }
+    .poster{
+        width: 210px;
+        height: 230px;
+       
+        
+       
+
+    }
+
+    
+    figcaption{
+        font-size: 20px;
+       margin-left: 100px;
+        
+    }
+
+   
+
+    .filtro-carta {
+        font-size: 15px;
+       
+       
+    
+       
+    }
+
+    input{
+        margin-top: -10px;
+       margin-right: -88px;
+    }
+
+
+  }
+
+
+
+  /*responsi2*/
+  @media screen and (max-width: 320px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px){
+    .carta{
+        width: 140px;
+      margin: 20px;
+    }
+
+    
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+    }
+    .poster{
+        width: 210px;
+        height: 230px;
+       
+        
+       
+
+    }
+
+    
+    figcaption{
+        font-size: 20px;
+       margin-left: 100px;
+        
+    }
+
+   
+
+    .filtro-carta {
+        font-size: 22px;
+       
+       
+    
+       
+    }
+
+    input{
+        margin-top: -10px;
+       margin-right: -88px;
+    }
+
+
   }
