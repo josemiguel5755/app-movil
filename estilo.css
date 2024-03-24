@@ -364,6 +364,11 @@ input{
       
     }
 
+    .filter {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
 
   }
 
