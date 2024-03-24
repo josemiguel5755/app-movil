@@ -343,7 +343,7 @@ input{
 
     input{
         margin-top: -10px;
-         transform: translate(-40px); 
+        transform: translate(-40px); 
        width: 250px;
       
     }
@@ -352,7 +352,7 @@ input{
         visibility: hidden;
         opacity: 0;
         position: absolute;
-        right: 20px;
+        right: 40px;
     }
 
   }
