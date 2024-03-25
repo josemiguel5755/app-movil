@@ -298,7 +298,7 @@ input{
 
 /* prueva */
 
-  @media screen and (max-width: 720px){
+  @media screen and (max-width: 400px){
     .carta{
         width: 100%;
         margin: 3px;
@@ -343,8 +343,8 @@ input{
 
     input{
         margin-top: -10px;
-        transform: translate(-40px); 
-       width: 250px;
+        transform: translate(-20px); 
+       width: 150px;
       
     }
 
