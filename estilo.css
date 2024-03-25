@@ -296,9 +296,9 @@ input{
 
   }
 
+/* prueva */
 
-
-  @media screen and (max-width: 380px){
+  @media screen and (max-width: 420px){
     .carta{
         width: 100%;
         margin: 3px;
