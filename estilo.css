@@ -232,7 +232,7 @@ input{
 }
 
 .filter {
-    visibility: hidden;
+     visibility: hidden; 
     opacity: 0;
     position: absolute;
 }
@@ -353,6 +353,10 @@ input{
         opacity: 0;
         position: absolute;
         
+    }
+
+    .carta figcaption{
+        width: 100px;
     }
 
   }
