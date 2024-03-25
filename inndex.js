@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.querySelector('.filtro-carta').addEventListener("keyup",(e)=>{
+document.querySelector('.filtro-carta').addEventListener("input",(e)=>{
 
     const search = e.target.value;
 
