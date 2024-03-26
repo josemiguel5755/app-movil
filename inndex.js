@@ -12,18 +12,35 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// document.querySelector('.filtro-carta').addEventListener("input",(e)=>{
+
+//     const search = e.target.value;
+
+//     document.querySelectorAll(".carta").forEach((tarjeta)=>{
+        
+//         const name = tarjeta.textContent.toLocaleLowerCase().trim();
+
+//         if (search != '')
+//             name.includes(search) ? tarjeta.classList.remove("filter") : tarjeta.classList.add("filter");
+//         else
+//             tarjeta.classList.remove('filter');
+//     });
+    
+// });
+
+
 document.querySelector('.filtro-carta').addEventListener("input",(e)=>{
 
-    const search = e.target.value;
+    const search = e.target.value.toLowerCase().trim();
 
     document.querySelectorAll(".carta").forEach((tarjeta)=>{
         
-        const name = tarjeta.textContent.toLocaleLowerCase().trim();
+        const name = tarjeta.textContent.toLowerCase().trim();
 
-        if (search != '')
+        if (search !== '') {
             name.includes(search) ? tarjeta.classList.remove("filter") : tarjeta.classList.add("filter");
-        else
+        } else {
             tarjeta.classList.remove('filter');
+        }
     });
-    
 });
